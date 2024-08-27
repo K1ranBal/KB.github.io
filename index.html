@@ -72,11 +72,11 @@
 								<h4>Results</h4>
 								<h5>Initial EDA</h5>
 								<p>Initial EDA analysis shows no significant correlation between temperature and variables within NEOs data. Relative velocity shows the highest value of R2 at 0.3 and Rarity shows a negative R2 of 0.33.</p>
-								<i><img src="Images/Initial EDA.jpg"class="center"></i>
+								<i><img src="images/Initial EDA.jpg"class="center"></i>
 								<p></p>			
 								<h5>K-Means Clustering</h5>
 								<p style="font-size: 85%;">The number of clusters (K values) have been determined by using the Elbow method, using the within-cluster sum of squares (inertia) value for a range of K values. The inertia at each K value was plotted on a line chart (figure 2), where the ‘elbow point’ was shown as K=4: determining 4 as the optimal number of clusters to use for this data.</p>
-								<i><img src="Images/Elbow Method.jpg" class="center"></i>
+								<i><img src="images/Elbow Method.jpg" class="center"></i>
 								<p></p>	
 								<p style="font-size: 85%;">The result of K-means was plotted in a 3-D scatter chart to visualise the NEOs assigned to each cluster. Where Cluster 1 = Grey, Cluster 2 = Yellow, Cluster 3 = Purple and Cluster 4 = Green.</p>
 								<div>
@@ -86,11 +86,11 @@
 								<p></p>
 								<h5>Secondary EDA</h5>
 								<p style="font-size: 85%;">Distribution charts paired with the descriptive statistics help understand the left-skewness; most of the temperature values are on the higher end of the scale between each cluster meaning there is a risk of imbalanced data. Lower temperature outliers in each category are spotted which can drastically affect the performance of the regression model.</p>
-								<i><img src="Images/Distribution Charts.jpg" class="center"></i>
+								<i><img src="images/Distribution Charts.jpg" class="center"></i>
 								<p></p>
 								<h5>Linear Regression Using Clusters</h5>
 								<p style="font-size: 85%;">Linear regression was applied to the data resulting in a weak correlation between the variables where R2 = 0.17 implying that it is unlikely that the NEO variables influence the temperature. However, the Standard Error (SE) = 0.2 indicating that the model predictions are close to the actual data points, this could be explained by the wide range of temperatures between each cluster, where the minimum and maximum range of temperatures were between -0.5 and 1 for all clusters. The P value of the model was 0 resulting in rejecting the null hypothesis: NEOs do not impact changes in global temperature. Overall the R2 value is not strong enough to prove causation of the research question however there is potential for further analysis to be done by splitting the data by its spatial properties to test more granularly by region and time periods to strengthen the value of R2.</p>
-								<i><img src="Images/Linear Regression.png" class="center"></i>
+								<i><img src="images/Linear Regression.png" class="center"></i>
 								<p></p>
 								<h5>Conclusion</h5>
 								<p style="font-size: 85%;">The results of the model determine a weak correlation between the variables chosen in NEOs and temperature changes. Whilst this research shows merits in clustering NEOs by significant variables there are some limitations within the data and its outliers that affect the performance of the regression.</p>
